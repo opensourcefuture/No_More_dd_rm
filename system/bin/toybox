@@ -1,0 +1,41 @@
+#!/system/xbin/bash
+case $0 in
+    /system/bin/toybox)
+    
+        case $1 in
+            dd)
+                echo command \"dd\" has been disabled
+                ;;
+            rm)
+                echo command \"rm\" has been disabled
+                ;;
+            DD)
+                toybox-bin dd ${*:2}
+                ;;
+            RM)
+                toybox-bin rm ${*:2}
+                ;;
+            *)
+                toybox-bin $*
+                ;;
+        esac
+        
+        ;;
+
+    /system/bin/rm)
+        echo command \"rm\" has been disabled 
+        ;;
+    /system/bin/dd)
+        echo command \"dd\" has been disabled
+        ;;
+    /system/bin/DD)
+        toybox-bin dd $*
+        ;;
+    /system/bin/RM)
+        toybox-bin rm $*
+        ;;
+    *)
+        toybox-bin ${*:0}
+        ;;
+esac
+#echo $0 $*
