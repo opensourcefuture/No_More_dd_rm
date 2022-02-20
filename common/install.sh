@@ -21,3 +21,6 @@ else
     echo no toybox found 
     exit
 fi
+
+rm -rf $MODPATH/zygisk
+
