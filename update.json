@@ -1,6 +1,6 @@
 {
-  "version": "v0.0.6",
-  "versionCode": 6,
-  "zipUrl": "https://raw.githubusercontent.com/opensourcefuture/No_More_dd_rm/install.zip",
-  "changelog": "https://raw.githubusercontent.com/opensourcefuture/No_More_dd_rm/changelog.md"
+  "version": "v0.0.7",
+  "versionCode": 7,
+  "zipUrl": "hhttps://github.com/opensourcefuture/No_More_dd_rm/releases/latest/download/install.zip",
+  "changelog": "https://raw.githubusercontent.com/opensourcefuture/No_More_dd_rm/master/changelog.md"
 }
