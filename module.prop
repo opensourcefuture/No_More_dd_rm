@@ -3,5 +3,5 @@ name=No_dd/rm
 version=v0.0.9 (9)
 versionCode=9
 author=Mayuri
-description=This module remove rm and dd when your Android boot. Maybe it will protect you from dd/rm
+description=This module disable rm and dd when your Android boot. Maybe it will protect you from dd/rm
 updateJson=https://raw.githubusercontent.com/opensourcefuture/No_More_dd_rm/master/update.json
